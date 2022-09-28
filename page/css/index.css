@@ -1,6 +1,6 @@
 .every-day {
     background: #fff;
-    width: 100%;
+    width: 96%;
     text-align: left;
     border-radius: 5px;
     box-shadow: 3px 4px 3px #888888;
@@ -23,4 +23,52 @@
     font-size: 12px;
     margin-bottom: 5px;
     color: #4859af;
+}
+
+.article-list {
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.article {
+    background: #fff;
+    display: inline-block;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px #888888;
+    text-align: left;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.article-title {
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    color: #13102b;
+    padding: 20px 10px 5px 10px;
+    text-align: left;
+}
+
+.article-title:hover {
+    color: #337ab7;
+}
+
+.article-content {
+    font-size: 14px;
+    color: #13102b;
+    padding: 0px 10px 20px 10px;
+    text-align: left;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+}
+
+.article-foot {
+    color: #eeeeee;
+    background: #1f1f1f;
+    width: 100%;
+    padding: 5px 10 px;
+    font-size: 14px;
 }
